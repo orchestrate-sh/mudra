@@ -1,0 +1,6 @@
+name: "Database 3"
+dependencies: {}
+type: "Database"
+actions:
+  check:
+    phases: [1,2,3]

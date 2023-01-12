@@ -1,0 +1,6 @@
+name: "S3 Bucket 3"
+dependencies: {}
+type: "S3"
+actions:
+  check:
+    phases: [1,2,3]

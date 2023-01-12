@@ -1,0 +1,5 @@
+name: "Phase 2 DNS Cutover"
+actions:
+  - echo "Cutting over Phase 2 DNS..."
+  # - ../external_script/SRE-DNS-CODE/cutover-dns.sh $PHASE2_DNS_HOSTNAME_1 GCP
+  - echo "...Phase 2 DNS successfully cutover."

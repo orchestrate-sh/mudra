@@ -1,0 +1,9 @@
+name: "H"
+type: "App"
+actions:
+  check:
+    phases: [1,2,3]
+  start:
+    phases: [1]
+  stop:
+    phases: [3]

@@ -1,0 +1,2 @@
+# Put sensitive environment variables (credentials) in this file in this format: foo=bar
+creds_environment=sandbox

@@ -1,0 +1,4 @@
+# Put environment variables in this file in this format: foo=bar
+env_meta=local
+#PHASE2_DNS_HOSTNAME_1=service1.local.example.com
+#PHASE3_DNS_HOSTNAME_1=service2.local.example.com

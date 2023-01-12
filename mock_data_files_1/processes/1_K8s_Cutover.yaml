@@ -1,0 +1,4 @@
+name: "Every phase K8s Cutover"
+actions:
+  - echo "Cutting over every phase K8s..."
+  - echo "...every phase K8s successfully cutover."

@@ -1,0 +1,5 @@
+name: "Every Phase DNS Cutover"
+actions:
+  - echo "Cutting over every phase DNS..."
+  # - "processes/cutover_dns.sh"
+  - echo "...every phase DNS successfully cutover."

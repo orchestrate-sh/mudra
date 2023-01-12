@@ -1,0 +1,6 @@
+K8S_SERVICE_NAME="nginx-1"
+SERVICE_TYPE="StatefulSet"
+K8S_STATEFULSET_NAME="nginx-1-nginx"
+DNS_NAME="app1.{{ env }}.example.com"
+K8S_SOURCE_CONTEXT="gke_au-tmc_us-central1-c_orchestration-sandbox-cluster-1"
+K8S_TARGET_CONTEXT="gke_au-tmc_us-central1-c_orchestration-sandbox-cluster-2"

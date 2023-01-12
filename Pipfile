@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+networkx = "*"
+pyyaml = "*"
+matplotlib = "*"
+click = "*"
+sh = "*"
+pid = "*"
+python-dotenv = "*"
+glog = "*"
+jmespath = "*"
+prometheus-client = "*"
+requests = "*"
+google-cloud-bigquery = "*"
+prettytable = "*"
+google-cloud-logging = "3.0.0"
+pandas = "*"
+kubernetes = "==21.7.0"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.8"

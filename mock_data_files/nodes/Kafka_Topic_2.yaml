@@ -1,0 +1,6 @@
+name: "Topic 2"
+dependencies: {}
+type: "Kafka"
+actions:
+  check:
+    phases: [1,2,3]

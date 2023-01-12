@@ -1,0 +1,7 @@
+name: "A"
+type: "Database"
+actions:
+  check:
+    phases: [1,2,3]
+  precutover:
+    phases: [1]

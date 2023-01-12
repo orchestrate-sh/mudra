@@ -1,0 +1,6 @@
+name: "E"
+dependencies: {}
+type: "Kafka"
+actions:
+  check:
+    phases: [1,2,3]

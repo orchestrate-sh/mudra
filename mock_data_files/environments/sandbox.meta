@@ -1,0 +1,4 @@
+# Put environment variables in this file in this format: foo=bar
+env_meta=sandbox
+#PHASE2_DNS_HOSTNAME_1=service1.sandbox.example.com
+

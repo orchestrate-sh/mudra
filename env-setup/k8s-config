@@ -1,0 +1,83 @@
+apiVersion: v1
+kind: Config
+preferences: {}
+
+clusters:
+- cluster:
+  name: staging-aws
+- cluster:
+  name: staging-gcp
+- cluster:
+  name: development-aws
+- cluster:
+  name: development-gcp
+- cluster:
+  name: local-1
+- cluster:
+  name: local-2
+
+users:
+- name: developer
+- name: mudra
+
+contexts:
+- context:
+  name: development-aws
+  cluster: development-aws
+  namespace: default
+  user: mudra
+- context:
+  name: development-gcp
+  cluster: development-gcp
+  namespace: default
+  user: mudra
+- context:
+  name: staging-aws
+  cluster: staging-aws
+  namespace: default
+  user: mudra
+- context:
+  name: staging-gcp
+  cluster: staging-gcp
+  namespace: default
+  user: mudra
+- context:
+  name: local-1
+  cluster: local-1
+  namespace: default
+  user: mudra
+- context:
+  name: local-2
+  cluster: local-2
+  namespace: default
+  user: mudra
+- context:
+  name: local-1-app1
+  cluster: local-1
+  namespace: app1
+  user: mudra
+- context:
+  name: local-2-app1
+  cluster: local-2
+  namespace: app1
+  user: mudra
+- context:
+  name: local-1-app2
+  cluster: local-1
+  namespace: app2
+  user: mudra
+- context:
+  name: local-2-app2
+  cluster: local-2
+  namespace: app2
+  user: mudra
+- context:
+  name: local-1-app3
+  cluster: local-1
+  namespace: app3
+  user: mudra
+- context:
+  name: local-2-app3
+  cluster: local-2
+  namespace: app3
+  user: mudra

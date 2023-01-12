@@ -1,0 +1,51 @@
+---
+name: "Database 1"
+dependencies: []
+
+---
+name: "Database 2"
+dependencies: []
+
+---
+name: "Database 3"
+dependencies: []
+
+---
+name: "S3 Bucket 1"
+dependencies: []
+
+---
+name: "S3 Bucket 2"
+dependencies: []
+
+---
+name: "S3 Bucket 3"
+dependencies: []
+
+---
+name: "App 1"
+dependencies:
+  - "Kafka"
+  - "Database 1"
+  - "Database 2"
+  - "S3 Bucket 1"
+  - "S3 Bucket 2"
+
+---
+name: "App 2"
+dependencies:
+  - "S3 Bucket 2"
+  - "App 1"
+  - "Kafka"
+
+---
+name: "App 3"
+dependencies:
+  - "S3 Bucket 3"
+  - "Database 3"
+  - "App 2"
+  - "Kafka"
+
+---
+name: "Kafka"
+dependencies: []

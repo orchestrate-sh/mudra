@@ -1,0 +1,24 @@
+name: "App 1"
+dependencies:
+  Kafka:
+    - "Topic 1"
+    - "Topic 2"
+  Database:
+    - "Database 1"
+    - "Database 2"
+  S3:
+    - "S3 Bucket 1"
+    - "S3 Bucket 2"
+type: "App"
+meta:
+  K8S_NAMESPACE: "default"
+  K8S_TARGET_NAMESPACE: "default"
+actions:
+  check:
+    phases: [1,2,3]
+  start:
+    phases: [2]
+  stop:
+    phases: [3]
+  scaledown:
+    phases: [0]
