@@ -19,7 +19,7 @@ google-cloud-bigquery = "*"
 prettytable = "*"
 google-cloud-logging = "3.0.0"
 pandas = "*"
-kubernetes = "==21.7.0"
+kubernetes = "==25.3.0"
 
 [dev-packages]
 autopep8 = "*"
